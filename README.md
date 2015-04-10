@@ -95,7 +95,7 @@ There are 2 directories:
 * figures : stores plots in png format (E.g plot1.png, plot2.png)
 * scripts : stores corresponding R scripts for reproduction and a <b>get_and_clean_data.R</b>.
 
-# Get_And_Clean_Data
+### Get_And_Clean_Data
 
 Note that get_and_clean_data.R will do the following function:
 
@@ -105,3 +105,22 @@ Note that get_and_clean_data.R will do the following function:
 
 Since get_and_clean_data is required in every plots (given that each script should work independently), it will take time to deliver the final result.
 
+### Result
+
+#### Plot 1
+
+![plot of chunk unnamed-chunk-2](figures/plot1.png) 
+
+#### Plot 2
+
+![plot of chunk unnamed-chunk-2](figures/plot2.png) 
+
+#### Plot 3
+
+
+![plot of chunk unnamed-chunk-2](figures/plot3.png) 
+
+#### Plot 4
+
+
+![plot of chunk unnamed-chunk-2](figures/plot4.png) 
