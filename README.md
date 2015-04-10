@@ -88,27 +88,20 @@ When you are finished with the assignment, push your git repository to
 GitHub so that the GitHub version of your repository is up to
 date. There should be four PNG files and four R code files.
 
+## Implementation
 
-The four plots that you will need to construct are shown below. 
+There are 2 directories:
 
+* figures : stores plots in png format (E.g plot1.png, plot2.png)
+* scripts : stores corresponding R scripts for reproduction and a <b>get_and_clean_data.R</b>.
 
-### Plot 1
+# Get_And_Clean_Data
 
+Note that get_and_clean_data.R will do the following function:
 
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
+1. Retrieving the file via link's location and storing it inside data/folder.
+2. Convert to correct format and extract data.
+3. Delete the data folder.
 
-
-### Plot 2
-
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
-
-
-### Plot 3
-
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
-
-
-### Plot 4
-
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
+Since get_and_clean_data is required in every plots (given that each script should work independently), it will take time to deliver the final result.
 
